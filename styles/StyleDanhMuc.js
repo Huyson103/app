@@ -1,0 +1,171 @@
+import {StyleSheet} from 'react-native';
+
+
+export const StyleDanhMuc = StyleSheet.create({
+    container:{
+        flex: 1,
+        backgroundColor: '#5856D6',
+    },
+    // HEADER
+    header:{
+        flex: 1.2,
+        flexDirection: "row",
+        justifyContent: "center",
+        alignItems: "center",
+        // alignContent: "center",
+    },
+    textHome:{
+        fontSize: 30,
+        color: "#fff",
+        // marginBottom: 5,
+    }, 
+    // BODY
+    body:{
+        flex: 8,
+        backgroundColor: '#b8b7eb',
+        borderTopLeftRadius: 20,
+        borderTopRightRadius: 20,
+        flexDirection: "column",
+    },
+    viewTitle:{
+        flexDirection: "row",
+        marginLeft: 6,
+        marginRight: 6,
+        flex: 0.5,
+        borderTopLeftRadius: 12,
+        borderTopRightRadius: 12,
+        alignItems: "center",
+    },
+    image:{
+        height: 25,
+        width: 25,
+        marginLeft: 6,
+        marginTop: 6,
+    },
+    title:{
+        fontSize: 15,
+        fontWeight: '400',
+        letterSpacing: -0.36,
+        lineHeight: 22,
+        marginLeft: 10,
+        marginTop: 6,
+    }, 
+    // GROUP SANPHAM
+    groupSanPham:{
+        flex: 8,
+        marginTop: 8,        
+        backgroundColor: '#dbdbf4',
+        marginLeft: 6,
+        marginRight: 6,
+        borderRadius: 10,
+        marginBottom: 8
+    },
+    viewSanPham:{
+        marginLeft: 6,
+        marginRight: 6,
+        height: 85,
+        borderRadius: 5,
+        marginTop: 6,
+        backgroundColor: '#fff',
+    },
+    imageLoi:{
+        flex: 1,
+        flexDirection: "row",
+        borderTopLeftRadius: 5,
+        borderTopRightRadius: 5,
+        marginTop: 6,
+    },
+    viewLoi:{
+        width: "75%",
+        // backgroundColor: '#f16161',
+        marginLeft: 6,
+        // borderRadius: 5,
+        // borderColor
+        borderRadius: 5,
+        borderColor: '#707070',
+        borderStyle: 'solid',
+        borderWidth: 1,
+        backgroundColor: '#f16161',
+    },
+    viewInfo:{
+        flex: 1,
+        // width: '75%',
+        // backgroundColor: 'red',
+        borderBottomLeftRadius: 5,
+        borderBottomRightRadius: 5,
+        // justifyContent: "center",
+        // marginLeft: 6,
+        flexDirection: "row",
+    },
+    viewText:{
+        width: "75%",
+        // backgroundColor: 'pink',
+        marginLeft: 6,
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "space-between",
+        margin: 6,
+    },
+    viewButtonKhac:{
+        width: '20%',
+        backgroundColor: '#007aff',
+        borderRadius: 5,
+        marginTop: 5,
+        marginBottom: 5,
+        // marginRight: 6,
+        marginLeft: 6,
+    },
+    // NEXTTHanhTOan
+    viewThanhToan:{
+        flex: 1.8,
+        backgroundColor: "#b8b7eb",
+    },
+    groupThanhToan:{
+        flex: 1,
+        backgroundColor: '#fff',
+        marginLeft: 6,
+        marginRight: 6,
+        borderTopLeftRadius:10,
+        borderTopRightRadius: 10,
+    },
+    viewDaChon:{
+        flex: 1/4,
+        marginLeft: 6,
+        marginRight: 6,
+        marginTop: 6,
+        marginBottom: 3,
+        backgroundColor: '#fff',
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+
+    },
+    viewTongTien:{
+        flex: 1/4,
+        backgroundColor: '#fff',
+        marginLeft: 6,
+        marginRight: 6,
+        marginTop: 3,
+        marginBottom: 3,
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+    },
+    viewButtonNext:{
+        flex: 1/2,
+        alignItems: "center",
+        // backgroundColor: 'lightblue',
+        marginTop: 6,
+        borderRadius: 5,
+        marginBottom: 8,
+    },
+    buttonNext:{
+        backgroundColor: '#007aff',
+        borderRadius: 5,
+        height: 50,
+        width: 110,
+        alignItems: "center",
+        marginBottom: 6,
+    },
+    //FOOTER
+})
